@@ -11,8 +11,9 @@ body {
     ),
     url(image/donation5.jpg);
   background-repeat: no-repeat;
-  background-size: auto auto;
+  background-size: 100% auto;
   height: 500px;
+  width: 100%;
 }
 
 .text-header h1 {
@@ -56,6 +57,7 @@ body {
 
 .donate-text p {
   font-size: 13px;
+  color: gray;
 }
 
 .donate-amount {
