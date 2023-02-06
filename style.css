@@ -140,10 +140,6 @@ p {
   font-size: 10px;
 }
 
-h5 {
-  margin-top: 600px;
-}
-
 .box1 {
   background-color: rgb(241, 241, 241);
 }
@@ -154,4 +150,49 @@ h5 {
 
 .box3 {
   background-color: antiquewhite;
+}
+
+.donate-plan {
+  margin-bottom: 200px;
+}
+
+.contribute {
+  display: flex;
+  justify-content: center;
+}
+
+.contribute-left p,
+h1 {
+  margin: 0px;
+  padding: 0px;
+  margin-right: 5px;
+}
+
+.contribute-left {
+  width: 40%;
+}
+
+.img-contribute {
+  width: 30%;
+}
+
+.img-contribute img {
+  object-fit: contain;
+  object-position: center;
+  height: 300px;
+  width: 100%;
+}
+
+.contribute-left p {
+  font-size: 13px;
+  color: gray;
+}
+
+.contribute-left a {
+  text-decoration: none;
+  font-size: 13px;
+  background-color: tomato;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
 }
