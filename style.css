@@ -67,7 +67,7 @@ body {
   margin-top: 40px;
 }
 
-.box {
+.donate-amount .box {
   height: 40px;
   width: 90px;
   margin-left: 10px;
@@ -95,6 +95,10 @@ input::placeholder {
   text-align: center;
 }
 
+input:focus::placeholder {
+  color: transparent;
+}
+
 .amount a {
   display: inline-block;
   margin-top: 20px;
@@ -103,4 +107,51 @@ input::placeholder {
   background-color: tomato;
   color: white;
   border-radius: 5px;
+}
+
+.donate-plan-box {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.donate-plan-box .boxx {
+  height: 200px;
+  width: 250px;
+  margin-left: 10px;
+  padding-top: 20px;
+  border-radius: 5px;
+}
+
+.boxx img,
+h3,
+p {
+  padding-left: 20px;
+  padding-right: 5px;
+}
+
+.boxx img {
+  width: 15%;
+}
+
+.boxx p {
+  color: gray;
+  font-size: 10px;
+}
+
+h5 {
+  margin-top: 600px;
+}
+
+.box1 {
+  background-color: rgb(241, 241, 241);
+}
+
+.box2 {
+  background-color: rgb(252, 227, 222);
+}
+
+.box3 {
+  background-color: antiquewhite;
 }
