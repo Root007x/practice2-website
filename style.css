@@ -138,6 +138,8 @@ p {
 .boxx p {
   color: gray;
   font-size: 10px;
+  text-align: left;
+  padding-left: 15px;
 }
 
 .box1 {
